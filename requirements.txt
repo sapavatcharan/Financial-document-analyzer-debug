@@ -1,0 +1,17 @@
+fastapi==0.110.3
+uvicorn[standard]>=0.23.0
+python-dotenv>=1.0.0
+
+# Core CrewAI stack
+crewai==0.130.0
+crewai-tools==0.47.1
+langchain-openai>=0.1.0
+
+# Infra and persistence
+redis>=5.0.0
+rq>=1.15.0
+SQLAlchemy>=2.0.0
+
+# Explicitly match crewai's onnxruntime requirement
+onnxruntime==1.22.0
+
